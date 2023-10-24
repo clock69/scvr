@@ -46,7 +46,7 @@ chmod -R 777 /home/panel/html
 cd /home/panel/html
 wget -0 /home/panel/html.htaccess "https://raw.githubusercontent.com/kruleshvpn/OCSPanel_KAFAShop/main/.htaccess"
 
-# tweak fial apache2
+# tweak fial apache2 .htaccess
 a2enmod rewrite
 
 # restart apache2
@@ -58,3 +58,13 @@ clear
 
 cd
 rm -rf webpage.sh
+
+clear
+echo -e "[+]===========================================================================[+]"
+echo -e "[+]                                                                           [+]"
+echo -e "[+]                                WEBPAGE INSTALLED                          [+]"
+echo -e "[+]                                                                           [+]"
+echo -e "[+]===========================================================================[+]"
+echo -e ""
+sleep 3
+clear
