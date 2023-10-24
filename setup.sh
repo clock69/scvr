@@ -111,6 +111,7 @@ echo -e ""
 sleep 3
 clear
 
+cd
 wget http://linkssh.sh
 chmod +x ssh.sh
 ./ssh.sh
