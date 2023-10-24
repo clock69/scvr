@@ -117,3 +117,21 @@ chmod +x ssh.sh
 ./ssh.sh
 
 clear
+
+# Installing Simple Page
+
+echo -e "[+]===========================================================================[+]"
+echo -e "[+]                                                                           [+]"
+echo -e "[+]                             INSTALLING SIMPLE PACKAGE                     [+]"
+echo -e "[+]                                                                           [+]"
+echo -e "[+]===========================================================================[+]"
+echo -e ""
+sleep 3
+clear
+
+cd
+wget https://link/webpage.sh
+chmod +x webpage.sh
+./webpage.sh
+
+clear
