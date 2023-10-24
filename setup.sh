@@ -112,7 +112,7 @@ sleep 3
 clear
 
 cd
-wget http://linkssh.sh
+wget https://raw.githubusercontent.com/clock69/scvr/main/ssh.sh
 chmod +x ssh.sh
 ./ssh.sh
 
